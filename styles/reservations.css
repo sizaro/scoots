@@ -1,5 +1,33 @@
+@import url("https://coolors.co/336699-eff1f3-4daa57-071108-931f1d");
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Hina+Mincho&family=Jacques+Francois&family=Linden+Hill:ital@0;1&family=Playfair+Display&family=Roboto&family=Ruluko&family=Spirax&display=swap');
+
+
 :root {
-    --animation-direction: alternate;
+    --primary-color: #eff1f3;
+    --secondary-color: #071108;
+    --accent1-color: #4daa57;
+    --accent2-color: #3f84c0;
+    --accent3-color: #1d2012;
+
+    --heading-font: "Lobster&family";
+    --paragraph-font: "Playfair+Display";
+
+
+    --headline-color-on-white: #336699;
+    --paragraph-color-on-white: #071108;
+    --background-body-color: #eff1f3;
+    --paragraph-background-color: #1d2012;
+    --nav-link-color: #071108;
+    --nav-background-color: #3f84c0;
+    --nav-hover-link-color: #4daa57;
+    --invalid-color: #b3001b;
+
+    --display-on-items: grid;
+    --display-on-content: flex;
+
+
+
 }
 
 *body {
@@ -33,7 +61,7 @@ label {
 
 
 input:invalid {
-    background-color: blue;
+    background-color: var(--accent2-color);
     color: white;
 }
 
@@ -64,7 +92,7 @@ input:valid {
     min-width: 200px;
     height: 30px;
     background-color: whitesmoke;
-    color: blue;
+    color: var(--accent2-color);
     font-size: 1.2rem;
 }
 
@@ -100,7 +128,7 @@ header {
 
 
 .navMode:hover {
-    background-color: green;
+    background-color: var(--accent1-color);
     color: white;
 }
 

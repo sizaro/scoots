@@ -4,25 +4,24 @@
 
 
 :root {
-    --primary-color: white;
-    --secondary-color: whitesmoke;
-    --accent1-color: green;
-    --accent2-color: blue;
-    --accent3-color: black;
+    --primary-color: #eff1f3;
+    --secondary-color: #071108;
+    --accent1-color: #4daa57;
+    --accent2-color: #3f84c0;
+    --accent3-color: #1d2012;
 
     --heading-font: "Lobster&family";
     --paragraph-font: "Playfair+Display";
 
 
-    --headline-color-on-white: #1d2012;
-    --headline-color-on-color: #ebedef;
-    --paragraph-color-on-white: #1d2012;
-    --paragraph-color-on-color: #ebedef;
+    --headline-color-on-white: #336699;
+    --paragraph-color-on-white: #071108;
+    --background-body-color: #eff1f3;
     --paragraph-background-color: #1d2012;
-    --nav-link-color: #ebedef;
+    --nav-link-color: #071108;
     --nav-background-color: #3f84c0;
-    --nav-hover-link-color: #8eaa46;
-    --nav-hover-background-color: #b3001b;
+    --nav-hover-link-color: #4daa57;
+    --invalid-color: #b3001b;
 
     --display-on-items: grid;
     --display-on-content: flex;
@@ -69,14 +68,14 @@ body {
 
 .reserve button {
     color: black;
-    background-color: aliceblue;
+    background-color: var(--background-body-color);
     width: 8rem;
     height: 2rem;
 }
 
 .reserve button:hover {
     background-color: green;
-    color: white;
+    color: var(--primary-color);
 }
 
 header {
@@ -90,7 +89,7 @@ header {
 }
 
 .navMode:hover {
-    background-color: green;
+    background-color: var(--accent1-color);
     color: white;
 }
 
@@ -121,11 +120,11 @@ header a {
 
 p {
     font-size: 1.4rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: var(--paragraph-font);
 }
 
 h2 {
-    color: blue;
+    color: var(--accent2-color);
 }
 
 #logoimg {
@@ -207,7 +206,7 @@ nav {
 }
 
 .images {
-    background-color: whitesmoke;
+    background-color: var(--background-body-color);
 }
 
 img.weather-icon {
@@ -216,7 +215,7 @@ img.weather-icon {
 }
 
 .rentalTypes {
-    background-color: whitesmoke;
+    background-color: var(--background-body-color);
 }
 
 footer {
