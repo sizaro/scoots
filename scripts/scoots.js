@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", function () {
 })
 
 
-const weatherUrl = "https://api.openweathermap.org/data/2.5/weather?lat=0.4475271339059875&lon=33.20316576377895&appid=1b38869f1c347522d45b8c33cd852ef5";
+const weatherUrl = "https://api.openweathermap.org/data/2.5/weather?lat=20.423875374639636&lon=-86.91648782314027&appid=1b38869f1c347522d45b8c33cd852ef5";
 let tempNow = document.querySelector(".current-temperature");
 let humidNow = document.querySelector(".current-humidity");
 let weatherNowDesc = document.querySelector(".description");
@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-const weatherForecastUrl = "https://api.openweathermap.org/data/2.5/forecast?lat=0.4475271339059875&lon=33.20316576377895&appid=1b38869f1c347522d45b8c33cd852ef5";
+const weatherForecastUrl = "https://api.openweathermap.org/data/2.5/forecast?lat=20.423875374639636&lon=-86.91648782314027&appid=1b38869f1c347522d45b8c33cd852ef5";
 async function forecastApiweatherFetch(url) {
     let response = await fetch(url);
     if (response.ok) {

@@ -102,6 +102,17 @@ header a {
     font-size: 1.2rem;
 }
 
+#google-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#google-map img {
+    width: 100%;
+}
+
 #home-page {
     font-size: 1.8rem;
     font-family: serif;
