@@ -159,6 +159,7 @@ nav {
 
 td {
     padding: 4px 50px;
+    font-size: 1.5rem;
 }
 
 .table-head4 {
@@ -167,12 +168,10 @@ td {
 
 th {
     padding: 8px 20px;
+    font-size: 1.2rem;
 }
 
-td,
-th {
-    border: 1px solid black;
-}
+
 
 .rental-type {
     padding: 0;
@@ -346,30 +345,26 @@ footer img {
 
 
     td {
-        padding: 20px 4px;
+        padding: 4px 25px;
+        font-size: 1rem;
     }
 
     .table-head4 {
-        padding: 4px;
+        padding: 4px 10px;
     }
 
-    th#table-head1 {
-        padding: 0 20px;
-    }
-
-    td,
     th {
-        border: 1px solid black;
+        padding: 8px 10px;
+        font-size: 1rem;
     }
 
     .rental-type {
         padding: 0 20px;
-        margin: 0 20px;
     }
 
     .max-persons {
-        padding-left: 20px;
-        padding-right: 60px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     caption {
@@ -558,6 +553,41 @@ footer img {
         height: auto;
     }
 
+
+    table {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 60px;
+        background-color: whitesmoke;
+        height: 100%;
+    }
+
+
+    td {
+        padding: 4px 30px;
+        font-size: 1.3rem;
+    }
+
+    .table-head4 {
+        padding: 4px 10px;
+    }
+
+    th {
+        padding: 8px 10px;
+        font-size: 1.2rem;
+    }
+
+    .rental-type {
+        padding: 0 20px;
+    }
+
+    .max-persons {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 
     footer {
         margin: 20px 0 0 0;
